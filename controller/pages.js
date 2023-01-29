@@ -5,4 +5,9 @@ router.get('/',(req, res) =>{
     res.render('index')
 })
 
+router.get('/',(req, res) =>{
+    res.render('about')
+})
+
+
 module.exports = router;
